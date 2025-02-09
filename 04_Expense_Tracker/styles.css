@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    max-width: 400px;
+    margin: 50px auto;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    width: 60%;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #252525;
+    color: #ffffff;
+    transition: background 0.3s, border 0.3s;
+    font-size: 14px;
+}
+
+input:hover, input:focus {
+    background: #333;
+    border: 1px solid #28a745;
+}
+
+button {
+    padding: 6px 12px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+
+ul {
+    width: 60%;
+    /* max-width: 350px; Matches input size */
+    padding: 0;
+    margin: 0 auto; /* Centers the list */
+}
+
+ul li {
+    width: 100%; /* Ensures li elements take full width of ul */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #252525;
+    color: #ffffff;
+    transition: background 0.3s, border 0.3s;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li:hover {
+    background: #333;
+    border: 1px solid #28a745;
+}
+
+
+#total {
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#total:hover {
+    color: #28a745;
+}
